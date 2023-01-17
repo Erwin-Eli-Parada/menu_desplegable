@@ -23,7 +23,7 @@ body .navigation {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
+  transition: 0.5s ease-out;
 }
 body .navigation .menuToggle {
   position: absolute;
@@ -102,6 +102,7 @@ body .navigation ul li.active a .text {
   color: #d78914;
 }
 body .navigation.open {
+  transition: 0.5s ease-out;
   width: 220px;
   justify-content: left;
 }
